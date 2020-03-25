@@ -10,6 +10,8 @@ from spinup.algos.tf1.sac.sac import sac as sac_tf1
 from spinup.algos.tf1.td3.td3 import td3 as td3_tf1
 from spinup.algos.tf1.trpo.trpo import trpo as trpo_tf1
 from spinup.algos.tf1.vpg.vpg import vpg as vpg_tf1
+from spinup.algos.tf1.cvi.cvi import cvi
+from spinup.algos.tf1.cvi.cvi_ad import cvi_ad
 
 from spinup.algos.pytorch.ddpg.ddpg import ddpg as ddpg_pytorch
 from spinup.algos.pytorch.ppo.ppo import ppo as ppo_pytorch
